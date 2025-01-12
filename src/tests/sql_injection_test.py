@@ -1,6 +1,6 @@
 import requests
-from test import BaseTest
-from agent import Agent
+from src.tests.test import BaseTest
+from src.agent.agent import Agent
 
 class SQLInjectionTest(BaseTest):
     def __init__(self, verbosity: str = "INFO"):

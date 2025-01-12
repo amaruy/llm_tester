@@ -1,7 +1,7 @@
 import logging
 import os
 from abc import ABC, abstractmethod
-from agent import Agent
+from src.agent.agent import Agent
 from datetime import datetime
 
 class BaseTest(ABC):
